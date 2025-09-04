@@ -4,17 +4,17 @@ import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion"
 import { X, ZoomIn } from "lucide-react";
 
 const imageSteps = [
-  { src: "src/assets/admin-console.png", title: "Admin Registration", description: "Register CEOs, managers, and employees in the console." },
-  { src: "src/assets/employeeDashboard.png", title: "Dashboard Overview", description: "Get a bird's-eye view of leave balances and requests." },
-  { src: "src/assets/empReg.png", title: "Employee Setup", description: "Assign employees to managers with a few clicks." },
-  { src: "src/assets/Leave.png", title: "Leave Request Form", description: "Employees submit leave requests via a clean form." },
-  { src: "src/assets/approval.png", title: "Approval Screen", description: "Managers approve or reject requests instantly." },
-  { src: "src/assets/managerFeature.png", title: "Calendar View", description: "Visualize team leaves on an interactive calendar." },
-  { src: "src/assets/reqdet.png", title: "Analytics Dashboard", description: "Track leave trends and generate reports." },
-  { src: "src/assets/EditProf.png", title: "Profile Management", description: "Update profile, photo, emergency contacts." },
+  { src: "assets/admin-console.png", title: "Admin Registration", description: "Register CEOs, managers, and employees in the console." },
+  { src: "assets/employeeDashboard.png", title: "Dashboard Overview", description: "Get a bird's-eye view of leave balances and requests." },
+  { src: "assets/empReg.png", title: "Employee Setup", description: "Assign employees to managers with a few clicks." },
+  { src: "assets/Leave.png", title: "Leave Request Form", description: "Employees submit leave requests via a clean form." },
+  { src: "assets/approval.png", title: "Approval Screen", description: "Managers approve or reject requests instantly." },
+  { src: "assets/managerFeature.png", title: "Calendar View", description: "Visualize team leaves on an interactive calendar." },
+  { src: "assets/reqdet.png", title: "Analytics Dashboard", description: "Track leave trends and generate reports." },
+  { src: "assets/EditProf.png", title: "Profile Management", description: "Update profile, photo, emergency contacts." },
   // { src: "src/assets/team-overview.png", title: "Team Overview", description: "See all team members and their leave status." },
-  { src: "src/assets/leaveHistory.png", title: "Leave History", description: "Review past leaves and approval history." },
-  { src: "src/assets/mgrnot.png", title: "Notifications", description: "Receive real-time alerts for new requests." },
+  { src: "assets/leaveHistory.png", title: "Leave History", description: "Review past leaves and approval history." },
+  { src: "assets/mgrnot.png", title: "Notifications", description: "Receive real-time alerts for new requests." },
   // { src: "src/assets/report-generation.png", title: "Report Generation", description: "Export detailed leave reports with one click." },
   // { src: "src/assets/settings.png", title: "System Settings", description: "Configure leave policies, roles, and permissions." }
 ];
